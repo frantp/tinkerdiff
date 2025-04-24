@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE library SYSTEM "tinkerdiff.dtd">
+<library>
+    <element package="78B04ST" value="SPST-478B04ST">
+        <pad name="1" type="" />
+        <pad name="2" type="" />
+        <pad name="3" type="" />
+        <pad name="4" type="" />
+        <pad name="5" type="" />
+        <pad name="6" type="" />
+        <pad name="7" type="" />
+        <pad name="8" type="" />
+        <component name="1">
+            <contactref pad="1" />
+            <contactref pad="8" />
+        </component>
+        <component name="2">
+            <contactref pad="2" />
+            <contactref pad="7" />
+        </component>
+        <component name="3">
+            <contactref pad="3" />
+            <contactref pad="6" />
+        </component>
+        <component name="4">
+            <contactref pad="4" />
+            <contactref pad="5" />
+        </component>
+    </element>
+    <element package="RESAD1016W63L850D250B" nonpolarized="true">
+        <!-- no value: WORKS FOR ANY VALUE -->
+        <!-- polarized: DEFAULT TYPE="{name}": nonpolarized: DEFAULT TYPE="" -->
+        <pad name="1" type="" />
+        <pad name="2" type="" />
+        <!-- default: SINGLE COMPONENT FULLY CONNECTED -->
+        <component name="">
+            <contactref pad="1" />
+            <contactref pad="2" />
+        </component>
+    </element>
+    <element package="CAP-THRU-2.54MM" nonpolarized="true">
+        <pad name="1" type="" />
+        <pad name="2" type="" />
+        <component name="">
+            <contactref pad="1" />
+            <contactref pad="2" />
+        </component>
+    </element>
+    <element package="DIP762W53P254L1969H508Q14B" value="74HC04_PDIP">
+        <pad name="1" type="I" />
+        <pad name="2" type="O" />
+        <pad name="3" type="I" />
+        <pad name="4" type="O" />
+        <pad name="5" type="I" />
+        <pad name="6" type="O" />
+        <pad name="7" type="GND" />
+        <pad name="8" type="O" />
+        <pad name="9" type="I" />
+        <pad name="10" type="O" />
+        <pad name="11" type="I" />
+        <pad name="12" type="O" />
+        <pad name="13" type="I" />
+        <pad name="14" type="VCC" />
+        <component name="NOT">
+            <contactref pad="1" />
+            <contactref pad="2" />
+        </component>
+        <component name="NOT">
+            <contactref pad="3" />
+            <contactref pad="4" />
+        </component>
+        <component name="NOT">
+            <contactref pad="5" />
+            <contactref pad="6" />
+        </component>
+        <component name="NOT">
+            <contactref pad="8" />
+            <contactref pad="9" />
+        </component>
+        <component name="NOT">
+            <contactref pad="10" />
+            <contactref pad="11" />
+        </component>
+        <component name="NOT">
+            <contactref pad="12" />
+            <contactref pad="13" />
+        </component>
+    </element>
+    <element package="DIP762W53P254L1969H508Q14B" value="74HC11_PDIP">
+        <pad name="1" type="I" />
+        <pad name="2" type="I" />
+        <pad name="3" type="I" />
+        <pad name="4" type="I" />
+        <pad name="5" type="I" />
+        <pad name="6" type="O" />
+        <pad name="7" type="GND" />
+        <pad name="8" type="O" />
+        <pad name="9" type="I" />
+        <pad name="10" type="I" />
+        <pad name="11" type="I" />
+        <pad name="12" type="O" />
+        <pad name="13" type="I" />
+        <pad name="14" type="VCC" />
+        <component name="AND">
+            <contactref pad="1" />
+            <contactref pad="2" />
+            <contactref pad="12" />
+            <contactref pad="13" />
+        </component>
+        <component name="AND">
+            <contactref pad="3" />
+            <contactref pad="4" />
+            <contactref pad="5" />
+            <contactref pad="6" />
+        </component>
+        <component name="AND">
+            <contactref pad="8" />
+            <contactref pad="9" />
+            <contactref pad="10" />
+            <contactref pad="11" />
+        </component>
+    </element>
+    <element package="DIP762W53P254L1969H508Q14B" value="74HC32_PDIP">
+        <pad name="1" type="I" />
+        <pad name="2" type="I" />
+        <pad name="3" type="O" />
+        <pad name="4" type="I" />
+        <pad name="5" type="I" />
+        <pad name="6" type="O" />
+        <pad name="7" type="GND" />
+        <pad name="8" type="O" />
+        <pad name="9" type="I" />
+        <pad name="10" type="I" />
+        <pad name="11" type="O" />
+        <pad name="12" type="I" />
+        <pad name="13" type="I" />
+        <pad name="14" type="VCC" />
+        <component name="OR">
+            <contactref pad="1" />
+            <contactref pad="2" />
+            <contactref pad="3" />
+        </component>
+        <component name="OR">
+            <contactref pad="4" />
+            <contactref pad="5" />
+            <contactref pad="6" />
+        </component>
+        <component name="OR">
+            <contactref pad="8" />
+            <contactref pad="9" />
+            <contactref pad="10" />
+        </component>
+        <component name="OR">
+            <contactref pad="11" />
+            <contactref pad="12" />
+            <contactref pad="13" />
+        </component>
+    </element>
+</library>

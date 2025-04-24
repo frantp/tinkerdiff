@@ -1,0 +1,12 @@
+<!ELEMENT library (element*)>
+<!ELEMENT element (pad*, component*)>
+<!ATTLIST element package CDATA #REQUIRED>
+<!ATTLIST element value CDATA #IMPLIED>
+<!ATTLIST element nonpolarized CDATA "false">
+<!ELEMENT pad EMPTY>
+<!ATTLIST pad name CDATA #REQUIRED>
+<!ATTLIST pad type CDATA #IMPLIED>
+<!ELEMENT component (contactref+)>
+<!ATTLIST component name CDATA #REQUIRED>
+<!ELEMENT contactref EMPTY>
+<!ATTLIST contactref pad CDATA #REQUIRED>
